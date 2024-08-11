@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -54,31 +55,34 @@ class HomePage extends StatelessWidget {
                           Center(
                             child: Positioned(
                               child: RichText(
-                                text: const TextSpan(
+                                text: TextSpan(
                                   text: 'Shorten your',
-                                  style: TextStyle(
-                                    fontFamily: 'Poppins-Bold',
-                                    fontWeight: FontWeight.w700,
-                                    color: Color(0xFF1F2937),
+                                  style: GoogleFonts.poppins(
+                                    textStyle: const TextStyle(
+                                      color: Color(0xFF1F2937),
+                                    ),
                                     fontSize: 56,
+                                    fontWeight: FontWeight.w700,
                                   ),
                                   children: <TextSpan>[
                                     TextSpan(
                                       text: ' links ',
-                                      style: TextStyle(
-                                        fontFamily: 'Poppins-Bold',
-                                        fontWeight: FontWeight.w700,
-                                        color: Color(0xFF651FFF),
+                                      style: GoogleFonts.poppins(
+                                        textStyle: const TextStyle(
+                                          color: Color(0xFF651FFF),
+                                        ),
                                         fontSize: 56,
+                                        fontWeight: FontWeight.w700,
                                       ),
                                     ),
                                     TextSpan(
                                       text: 'quickly with us.',
-                                      style: TextStyle(
-                                        fontFamily: 'Poppins-Bold',
+                                      style: GoogleFonts.poppins(
+                                        textStyle: const TextStyle(
+                                          color: Color(0xFF1F2937),
+                                        ),
+                                        fontSize: 56,
                                         fontWeight: FontWeight.w700,
-                                        color: Color(0xFF1F2937),
-                                        fontSize: 64,
                                       ),
                                     ),
                                   ],
@@ -90,7 +94,7 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const Row(
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Column(
@@ -103,10 +107,11 @@ class HomePage extends StatelessWidget {
                                 child: Text(
                                   textAlign: TextAlign.center,
                                   'Links shortened with NanoLink are automatically saved and reliably stored for free, ensuring they’re always ready to use.',
-                                  style: TextStyle(
-                                    fontFamily: 'Poppins-Regular',
+                                  style: GoogleFonts.poppins(
+                                    textStyle: const TextStyle(
+                                      color: Color(0xFF5C5F6E),
+                                    ),
                                     fontWeight: FontWeight.w400,
-                                    color: Color(0xFF5C5F6E),
                                     fontSize: 18,
                                   ),
                                 ),
@@ -147,22 +152,24 @@ class HomePage extends StatelessWidget {
                                   Center(
                                     child: Positioned(
                                       child: RichText(
-                                        text: const TextSpan(
+                                        text: TextSpan(
                                           text: 'Copyright © NanoLink LLC  ',
-                                          style: TextStyle(
-                                            fontFamily: 'Poppins-Regular',
+                                          style: GoogleFonts.poppins(
+                                            textStyle: const TextStyle(
+                                              color: Color(0xFF8290A1),
+                                            ),
                                             fontWeight: FontWeight.w400,
-                                            color: Color(0xFF8290A1),
                                             fontSize: 20,
                                           ),
                                           children: <TextSpan>[
                                             TextSpan(
                                               text:
                                                   ' •  Terms  •  Privacy Policy  •  Accessibility  •',
-                                              style: TextStyle(
-                                                fontFamily: 'Poppins-Regular',
+                                              style: GoogleFonts.poppins(
+                                                textStyle: const TextStyle(
+                                                  color: Color(0xFF8290A1),
+                                                ),
                                                 fontWeight: FontWeight.w400,
-                                                color: Color(0xFF8290A1),
                                                 fontSize: 18,
                                               ),
                                             ),
