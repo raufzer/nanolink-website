@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nanolink_website/pages/home_page.dart';
+import 'package:nanolink_website/pages/first_page.dart';
+import 'package:nanolink_website/pages/second_page.dart';
 
 void main() {
   runApp(const NanoLinkWebsite());
@@ -13,7 +14,7 @@ class NanoLinkWebsite extends StatelessWidget {
     return const MaterialApp(
       title: 'NanoLink',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SecondPage(),
     );
   }
 }
