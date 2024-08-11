@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -18,7 +19,9 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.only(
+              top: 200,
+            ),
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
