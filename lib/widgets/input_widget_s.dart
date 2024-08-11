@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class InputWidget extends StatelessWidget {
-  const InputWidget({super.key, required this.hintText});
+class InputWidgetS extends StatelessWidget {
+  const InputWidgetS({super.key, required this.hintText});
   final String hintText;
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class InputWidget extends StatelessWidget {
       children: [
         Container(
           height: 70,
-          width: 480,
+          width: 220,
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(40),
@@ -18,7 +18,7 @@ class InputWidget extends StatelessWidget {
             boxShadow: [
               BoxShadow(
                 color: const Color(0xFF8466FF).withOpacity(1),
-                spreadRadius: 2,
+                spreadRadius: 0,
                 blurRadius: 0,
                 offset: const Offset(20, 5),
               ),
