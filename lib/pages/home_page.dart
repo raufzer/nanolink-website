@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+import 'package:nanolink_website/widgets/shorten_link_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -191,6 +191,16 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
+            ],
+          ),
+          const Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 200,
+                width: 600,
+              ),
+              Center(child: ShortenLinkWidget()),
             ],
           )
         ],

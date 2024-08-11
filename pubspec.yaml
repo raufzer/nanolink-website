@@ -66,6 +66,7 @@ flutter:
     - assets/images/NanoLinkLogo.png
     - assets/images/background.png
     - assets/images/elements.png
+    - assets/icons/enter_link_icon.svg
 
 
 
