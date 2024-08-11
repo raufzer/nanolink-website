@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:nanolink_website/widgets/icon_button.dart';
 import 'package:nanolink_website/widgets/input_title_widget.dart';
 import 'package:nanolink_website/widgets/input_widget.dart';
-
 
 class ShortenLinkWidgetSecond extends StatelessWidget {
   const ShortenLinkWidgetSecond({super.key});
@@ -48,6 +48,18 @@ class ShortenLinkWidgetSecond extends StatelessWidget {
             InputWidget(
               hintText: 'yourlinkalias.com ',
             ),
+            SizedBox(height: 25),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                SizedBox(width: 60),
+                ButtonIcon(text: 'Copy', icon: 'assets/icons/copy_icon.svg'),
+                SizedBox(width: 30),
+                ButtonIcon(text: 'Share', icon: 'assets/icons/share_icon.svg'),
+                SizedBox(width: 30),
+                ButtonIcon(text: 'Visit', icon: 'assets/icons/visit_icon.svg'),
+              ],
+            )
           ],
         ),
       ),

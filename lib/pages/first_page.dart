@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/enter_link_button.dart';
+import 'package:nanolink_website/widgets/large_button_colorized.dart';
 import 'package:nanolink_website/widgets/shorten_link_widget_first.dart';
 
 class FirstPage extends StatelessWidget {
@@ -205,7 +205,7 @@ class FirstPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              EnterLinkButton(text: 'Shorten URL')
+              LargeButton(text: 'Shorten URL')
             ],
           )
         ],

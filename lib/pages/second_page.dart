@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/enter_link_button.dart';
 import 'package:nanolink_website/widgets/shorten_link_widget_second.dart';
+import 'package:nanolink_website/widgets/small_button_colorized.dart';
+import 'package:nanolink_website/widgets/small_button_outlined.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
@@ -205,7 +206,14 @@ class SecondPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              EnterLinkButton(text: 'Shorten URL')
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SmallButton(text: 'Shorten Another'),
+                  SizedBox(width: 35),
+                  SmallButtonOutlined(text: 'My Links'),
+                ],
+              )
             ],
           )
         ],

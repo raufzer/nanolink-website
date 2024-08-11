@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
   flutter_svg: ^2.0.5
+  stroke_text: ^0.0.3
 
 
 dev_dependencies:
@@ -69,6 +70,9 @@ flutter:
     - assets/icons/enter_link_icon.svg
     - assets/icons/customize_link_icon.svg
     - assets/icons/nano_link_icon.svg
+    - assets/icons/copy_icon.svg
+    - assets/icons/share_icon.svg
+    - assets/icons/visit_icon.svg
 
 
 
