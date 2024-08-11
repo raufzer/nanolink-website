@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/shorten_link_widget.dart';
+import 'package:nanolink_website/widgets/enter_link_button.dart';
+import 'package:nanolink_website/widgets/shorten_link_widget_second.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class SecondPage extends StatelessWidget {
+  const SecondPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -200,7 +201,11 @@ class HomePage extends StatelessWidget {
                 height: 200,
                 width: 600,
               ),
-              Center(child: ShortenLinkWidget()),
+              Center(child: ShortenLinkWidgetSecond()),
+              SizedBox(
+                height: 30,
+              ),
+              EnterLinkButton(text: 'Shorten URL')
             ],
           )
         ],
