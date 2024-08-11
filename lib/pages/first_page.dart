@@ -21,7 +21,8 @@ class FirstPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(
-              top: 200,
+              top: 110,
+              left: 30,
             ),
             child: Container(
               decoration: const BoxDecoration(
