@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:nanolink_website/pages/home_page.dart';
-import 'package:nanolink_website/pages/my_links_page.dart';
 
 void main() {
   runApp(const NanoLinkWebsite());

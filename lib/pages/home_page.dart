@@ -195,18 +195,18 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
-          const Column(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 200,
                 width: 600,
               ),
-              Center(child: ShortenLinkWidgetFirst()),
-              SizedBox(
+              Center(child: LinkInputHome()),
+              const SizedBox(
                 height: 30,
               ),
-              LargeButton(text: 'Shorten URL')
+              const ShortenLinkButton(text: 'Shorten URL')
             ],
           )
         ],

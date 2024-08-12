@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_svg: ^2.0.5
   stroke_text: ^0.0.3
+  http: ^1.2.2
 
 
 dev_dependencies:

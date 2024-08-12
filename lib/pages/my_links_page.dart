@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/link_input_section_home.dart';
-import 'package:nanolink_website/widgets/link_input_section_shortned.dart';
 import 'package:nanolink_website/widgets/links_input_section_mylinks.dart';
 import 'package:nanolink_website/widgets/primary_button.dart';
-import 'package:nanolink_website/widgets/secondary_button_fill.dart';
-import 'package:nanolink_website/widgets/secondary_button_outlined.dart';
 
 class MyLinksPage extends StatelessWidget {
   const MyLinksPage({super.key});
@@ -209,7 +205,7 @@ class MyLinksPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              LargeButton(text: 'Shorten URL')
+              ShortenLinkButton(text: 'Shorten URL')
             ],
           )
         ],
