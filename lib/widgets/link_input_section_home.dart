@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:nanolink_website/widgets/input_title_widget.dart';
-import 'package:nanolink_website/widgets/input_widget.dart';
+import 'package:nanolink_website/widgets/input_title.dart';
+import 'package:nanolink_website/widgets/text_input_field.dart';
+import 'package:nanolink_website/widgets/short_input_field.dart';
 
-
-class ShortenLinkWidgetSecond extends StatelessWidget {
-  const ShortenLinkWidgetSecond({super.key});
+class ShortenLinkWidgetFirst extends StatelessWidget {
+  const ShortenLinkWidgetFirst({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -40,13 +40,19 @@ class ShortenLinkWidgetSecond extends StatelessWidget {
               children: [
                 SizedBox(width: 30),
                 InputTitleWidget(
-                    title: 'NanoLink:',
-                    icon: 'assets/icons/nano_link_icon.svg'),
+                    title: 'Customize your link:',
+                    icon: 'assets/icons/customize_link_icon.svg'),
               ],
             ),
             SizedBox(height: 10),
-            InputWidget(
-              hintText: 'yourlinkalias.com ',
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                SizedBox(width: 50),
+                InputWidgetS(hintText: 'nanolink.com'),
+                SizedBox(width: 40),
+                InputWidgetS(hintText: 'Enter alias')
+              ],
             ),
           ],
         ),

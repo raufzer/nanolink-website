@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/enter_link_button.dart';
-import 'package:nanolink_website/widgets/shorten_link_widget_first.dart';
+import 'package:nanolink_website/widgets/primary_button.dart';
+import 'package:nanolink_website/widgets/link_input_section_home.dart';
 
-class FirstPage extends StatelessWidget {
-  const FirstPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,8 @@ class FirstPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(
-              top: 200,
+              top: 110,
+              left: 30,
             ),
             child: Container(
               decoration: const BoxDecoration(
@@ -205,7 +206,7 @@ class FirstPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              EnterLinkButton(text: 'Shorten URL')
+              LargeButton(text: 'Shorten URL')
             ],
           )
         ],
