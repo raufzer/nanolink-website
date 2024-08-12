@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/large_button_colorized.dart';
-import 'package:nanolink_website/widgets/shorten_link_widget_first.dart';
+import 'package:nanolink_website/widgets/link_input_section_home.dart';
+import 'package:nanolink_website/widgets/link_input_section_shortned.dart';
+import 'package:nanolink_website/widgets/links_input_section_mylinks.dart';
+import 'package:nanolink_website/widgets/primary_button.dart';
+import 'package:nanolink_website/widgets/secondary_button_fill.dart';
+import 'package:nanolink_website/widgets/secondary_button_outlined.dart';
 
-class FirstPage extends StatelessWidget {
-  const FirstPage({super.key});
+class MyLinksPage extends StatelessWidget {
+  const MyLinksPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +25,7 @@ class FirstPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(
-              top: 110,
-              left: 30,
+              top: 200,
             ),
             child: Container(
               decoration: const BoxDecoration(
@@ -202,7 +205,7 @@ class FirstPage extends StatelessWidget {
                 height: 200,
                 width: 600,
               ),
-              Center(child: ShortenLinkWidgetFirst()),
+              Center(child: MyLinksWidget()),
               SizedBox(
                 height: 30,
               ),

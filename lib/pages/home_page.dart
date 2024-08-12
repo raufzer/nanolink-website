@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nanolink_website/widgets/shorten_link_widget_second.dart';
-import 'package:nanolink_website/widgets/small_button_colorized.dart';
-import 'package:nanolink_website/widgets/small_button_outlined.dart';
+import 'package:nanolink_website/widgets/primary_button.dart';
+import 'package:nanolink_website/widgets/link_input_section_home.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +21,8 @@ class SecondPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(
-              top: 200,
+              top: 110,
+              left: 30,
             ),
             child: Container(
               decoration: const BoxDecoration(
@@ -202,18 +202,11 @@ class SecondPage extends StatelessWidget {
                 height: 200,
                 width: 600,
               ),
-              Center(child: ShortenLinkWidgetSecond()),
+              Center(child: ShortenLinkWidgetFirst()),
               SizedBox(
                 height: 30,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SmallButton(text: 'Shorten Another'),
-                  SizedBox(width: 35),
-                  SmallButtonOutlined(text: 'My Links'),
-                ],
-              )
+              LargeButton(text: 'Shorten URL')
             ],
           )
         ],
