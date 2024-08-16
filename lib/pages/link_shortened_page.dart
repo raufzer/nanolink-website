@@ -5,7 +5,8 @@ import 'package:nanolink_website/widgets/secondary_button_fill.dart';
 import 'package:nanolink_website/widgets/secondary_button_outlined.dart';
 
 class LinkShortnedPage extends StatelessWidget {
-  const LinkShortnedPage({super.key});
+  const LinkShortnedPage({super.key,required this.shortenedLink});
+  final String shortenedLink;
 
   @override
   Widget build(BuildContext context) {

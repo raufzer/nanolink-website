@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class InputWidget extends StatelessWidget {
-  const InputWidget({super.key, required this.hintText});
+  const InputWidget({super.key, required this.hintText, required this.controller});
   final String hintText;
+  final TextEditingController controller;
+
+  /// Receive the controller as an argument
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -29,6 +33,7 @@ class InputWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               TextField(
+                controller: controller,
                 decoration: InputDecoration(
                   border: InputBorder.none,
                   hintText: hintText,
@@ -44,7 +49,7 @@ class InputWidget extends StatelessWidget {
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }
