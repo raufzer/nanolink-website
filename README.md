@@ -16,9 +16,9 @@
 
 ## Screenshots
 
-| Home Screen       | Analytics Screen       | Settings Screen       |
+| Home Page       | Link Shortend Page       | Links Shortend List Page       |
 | ----------------- | ---------------------- | ---------------------- |
-| ![Home Page](./assets/images/Home Page.png) | ![Link Shortend Page](https://imgur.com/aZioDk8) | ![Links Shortend List Page](https://imgur.com/l1B8BQ8) |
+| ![Home Page](./assets/images/Home_Page.png) | ![Link Shortend Page](./assets/images/Link_Shortned_Page.png) | ![Links Shortend List Page](./assets/images/Links_Shortned_Page_List.png) |
 
 ## Getting Started
 
