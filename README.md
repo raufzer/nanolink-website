@@ -16,9 +16,10 @@
 
 ## Screenshots
 
-| Home Page       | Link Shortend Page       | Links Shortend List Page       |
-| ----------------- | ---------------------- | ---------------------- |
-| ![Home Page](./assets/images/Home_Page.png) | ![Link Shortend Page](assets/images/Link_Shortend_Page.png) | ![Links Shortend List Page](assets/images/Links_Shortend_Page_List.png) |
+
+![Home Page](./assets/images/Home_Page.png)
+![Link Shortend Page](assets/images/Link_Shortend_Page.png)
+![Links Shortend List Page](assets/images/Links_Shortend_Page_List.png)
 
 ## Getting Started
 
