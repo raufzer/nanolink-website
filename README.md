@@ -49,10 +49,6 @@
    ```bash
    python manage.py runserver
 
-
-### API Documentation
-SOON.
-
 ### Contributing
 We welcome contributions to NanoLink! Please refer to our contribution guidelines for details.
 
