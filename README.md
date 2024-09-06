@@ -1,4 +1,4 @@
-# Nanolink: A Flutter App for Link Shortening
+# Nanolink: A Flutter Weabsite for Link Shortening
 
 **Nanolink** is a sleek and efficient web application built using Flutter to provide seamless link-shortening services. The website offers a user-friendly interface for generating and managing shortened URLs, along with analytics and other essential features.
 
