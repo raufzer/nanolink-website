@@ -51,6 +51,3 @@
 
 ### Contributing
 We welcome contributions to NanoLink! Please refer to our contribution guidelines for details.
-
-### License
-This project is licensed under the raufzer license.
